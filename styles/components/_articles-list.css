@@ -1,7 +1,7 @@
 .articles-list {
   lost-column: 1/1 0 0;
-  padding-left: 50px;
-  padding-right: 50px;
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
 
   @media (--tablet) {
     padding-left: 35px;

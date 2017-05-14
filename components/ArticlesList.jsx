@@ -12,8 +12,13 @@ class ArticlesList extends React.Component {
     if (typeof window !== 'undefined') {
       const body = document.getElementsByTagName('body');
       const css = body[0].style;
-      css.color = '#fff';
-      css.backgroundColor = '#4938aa';
+      console.log(css)
+      css.color = 'black';
+      css.backgroundColor = '#fff';
+     // css.borderStyle = 'solid' 
+     // css.borderColor = 'black' 
+     // css.borderColor = 'black'
+     // css.borderWidth = '1px'
     }
   }
   componentWillUnmount() {
@@ -21,7 +26,8 @@ class ArticlesList extends React.Component {
       const body = document.getElementsByTagName('body');
       const css = body[0].style;
       css.color = '#fff';
-      css.backgroundColor = '#2b4496';
+      {/* // css.backgroundColor = '#2b4496'; */}
+      {/* // css.backgroundColor = 'white' */}
     }
   }
   renderPosts(route) {

@@ -1,8 +1,9 @@
 :root {
-  --bgColor: #2b4496;
-  --logoOuter: #a0740a;
-  --logoTriangle: var(--logoOuter);
-  --logoSquareInner: #886309;
-  --logoSquareBorder: #b8850c;
-  --logoCircle: #b8850c;
+  --bgColor: rgba(0, 0, 0, .02);
+  --fontColor: #000000;
+  /* --logoOuter: #a0740a; */
+  /* --logoTriangle: var(--logoOuter); */
+  /* --logoSquareInner: #886309; */
+  /* --logoSquareBorder: #b8850c; */
+  /* --logoCircle: #b8850c; */
 }

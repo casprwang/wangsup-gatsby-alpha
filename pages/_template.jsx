@@ -5,7 +5,9 @@ import '../styles/main.css';
 class Template extends React.Component {
   render() {
     const { children } = this.props;
+    let { data } = this.props.children.props.route.page
 
+console.log()
     return (
       <div className="wrapper">
         {children}
