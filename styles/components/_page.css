@@ -1,7 +1,7 @@
 .page {
   lost-column: 1/1 0 0;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 
   @media (--tablet) {
     padding-left: 35px;
@@ -16,7 +16,7 @@
   &-container {
     lost-center: 980px;
     lost-align: center;
-    text-align: center;
+    text-align: justify;
     margin-top: 30px;
 
     &-title {}

@@ -1,9 +1,5 @@
 :root {
   --bgColor: rgba(0, 0, 0, .02);
   --fontColor: #000000;
-  /* --logoOuter: #a0740a; */
-  /* --logoTriangle: var(--logoOuter); */
-  /* --logoSquareInner: #886309; */
-  /* --logoSquareBorder: #b8850c; */
-  /* --logoCircle: #b8850c; */
+  /* --fontSystem: -apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans GB",Arial,sans-serif; */
 }

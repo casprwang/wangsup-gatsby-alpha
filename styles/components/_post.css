@@ -1,7 +1,7 @@
 .post {
   lost-column: 1/1 0 0;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   @media (--tablet) {
     padding-left: 35px;
@@ -16,7 +16,7 @@
   &-container {
     lost-center: 980px;
     lost-align: center;
-    text-align: center;
+    text-align: left;
     margin-top: 30px;
 
     &-title {}

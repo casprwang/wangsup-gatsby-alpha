@@ -7,6 +7,7 @@ import _ from 'lodash';
 
 import Article from './Article';
 
+// for the Main Page
 class ArticlesList extends React.Component {
   componentWillMount() {
     if (typeof window !== 'undefined') {
@@ -15,17 +16,13 @@ class ArticlesList extends React.Component {
       console.log(css)
       css.color = 'black';
       css.backgroundColor = '#fff';
-     // css.borderStyle = 'solid' 
-     // css.borderColor = 'black' 
-     // css.borderColor = 'black'
-     // css.borderWidth = '1px'
     }
   }
   componentWillUnmount() {
     if (typeof window !== 'undefined') {
       const body = document.getElementsByTagName('body');
       const css = body[0].style;
-      css.color = '#fff';
+      css.color = 'black';
       {/* // css.backgroundColor = '#2b4496'; */}
       {/* // css.backgroundColor = 'white' */}
     }
@@ -54,16 +51,7 @@ class ArticlesList extends React.Component {
       <div>
         <div className="articles-list">
           <div className="articles-list-container">
-            <Link to={prefixLink('/')}>
-              <div className="logo fixed">
-                <div className="logo-outerCircle">
-                  <div className="logo-outerCircle-triangle">
-                    <div className="logo-outerCircle-triangle-square">
-                      <div className="logo-outerCircle-triangle-square-innerCircle" /></div>
-                  </div>
-                </div>
-              </div>
-            </Link>
+            <Link to={prefixLink('/')}></Link>
             <div className="articles-list-container-title">
               <h1>{post.title}</h1>
               <div className="articles-list-container-body">
