@@ -1,0 +1,15 @@
+a {
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: 0.15s;
+  &:hover{
+    color: #1abc9c;
+    text-decoration: none;
+  }
+}
+
+/* *::selection { */
+/*   color: #fff; */
+/*   background: #41bec5; */
+/* } */
