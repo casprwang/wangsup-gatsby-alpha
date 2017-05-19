@@ -3,13 +3,19 @@ a {
   letter-spacing: 1px;
   text-decoration: none;
   transition: 0.15s;
-  &:hover{
-    color: rgb(10%, 74%, 61%);
+  &:hover {
+    color: color(var(--link) a(60%));
     text-decoration: none;
+  }
+  &:visited {
+    /* text-decoration: underline color(var(--link) a(80%)); */
+  }
+  &:focus {
+    /* text-decoration: underline color(var(--link) a(60%)); */
   }
 }
 
 *::selection {
   color: #fff;
-  background: #41bec5;
+  background: var(--link);
 }

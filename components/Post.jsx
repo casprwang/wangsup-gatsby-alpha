@@ -16,7 +16,7 @@ class Post extends React.Component {
       const body = document.getElementsByTagName('body');
       const css = body[0].style;
       css.color = '#fff';
-      css.backgroundColor = '#2b4496';
+      css.backgroundColor = 'rgba(0, 0, 0, .02)';
     }
   }
   render() {

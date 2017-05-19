@@ -13,18 +13,17 @@ class ArticlesList extends React.Component {
     if (typeof window !== 'undefined') {
       const body = document.getElementsByTagName('body');
       const css = body[0].style;
-      console.log(css)
-      css.color = 'black';
-      css.backgroundColor = '#fff';
+      // console.log(css)
+      css.color = '#27373F';
+      css.backgroundColor = '#00000033';
     }
   }
   componentWillUnmount() {
     if (typeof window !== 'undefined') {
       const body = document.getElementsByTagName('body');
       const css = body[0].style;
-      css.color = 'black';
-      {/* // css.backgroundColor = '#2b4496'; */}
-      {/* // css.backgroundColor = 'white' */}
+      css.color = '#27373F';
+      css.backgroundColor = '#00000033';
     }
   }
   renderPosts(route) {

@@ -31,7 +31,7 @@ export default class Index extends React.Component {
                   <Link to={prefixLink('/articles/')}>Articles</Link>
                 </li>
                 <li>
-                  <a href="https://github.com/bntzio/gatsby-starter-alchemy" target="_blank">Github</a>
+                  <a href="https://github.com/wangsongiam" target="_blank">Github</a>
                 </li>
               </ul>
             </div>
