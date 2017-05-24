@@ -13,9 +13,8 @@ class ArticlesList extends React.Component {
     if (typeof window !== 'undefined') {
       const body = document.getElementsByTagName('body');
       const css = body[0].style;
-      // console.log(css)
       css.color = '#27373F';
-      css.backgroundColor = '#00000033';
+      css.backgroundColor = '#fff';
     }
   }
   componentWillUnmount() {
@@ -23,7 +22,7 @@ class ArticlesList extends React.Component {
       const body = document.getElementsByTagName('body');
       const css = body[0].style;
       css.color = '#27373F';
-      css.backgroundColor = '#00000033';
+      css.backgroundColor = '#fff';
     }
   }
   renderPosts(route) {
@@ -45,6 +44,8 @@ class ArticlesList extends React.Component {
   render() {
     const { route } = this.props;
     const post = route.page.data;
+    const { pages } = this.props.route
+    console.log(pages[1].data)
 
     return (
       <div>

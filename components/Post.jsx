@@ -7,15 +7,15 @@ class Post extends React.Component {
     if (typeof window !== 'undefined') {
       const body = document.getElementsByTagName('body');
       const css = body[0].style;
-      css.color = '#333';
-      css.backgroundColor = '#fff';
+      css.color = 'hsl(201, 24%, 20%)';
+      css.backgroundColor = 'rgba(0, 0, 0, .02)';
     }
   }
   componentWillUnmount() {
     if (typeof window !== 'undefined') {
       const body = document.getElementsByTagName('body');
       const css = body[0].style;
-      css.color = '#fff';
+      css.color = 'hsl(201, 24%, 20%)';
       css.backgroundColor = 'rgba(0, 0, 0, .02)';
     }
   }
@@ -28,14 +28,6 @@ class Post extends React.Component {
         <div className="post">
           <div className="post-container">
             <Link to={prefixLink('/articles/')}>
-              <div className="logo fixed">
-                <div className="logo-outerCircle">
-                  <div className="logo-outerCircle-triangle">
-                    <div className="logo-outerCircle-triangle-square">
-                      <div className="logo-outerCircle-triangle-square-innerCircle" /></div>
-                  </div>
-                </div>
-              </div>
             </Link>
 
             <div className="post-container-title">

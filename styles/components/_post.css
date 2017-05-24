@@ -16,14 +16,14 @@
   &-container {
     lost-center: 980px;
     lost-align: center;
-    text-align:  justify;
+    text-align: left;
     margin-top: 30px;
 
     &-title {}
 
     &-body {
       font-size: responsive 15px 20px;
-      text-align:  justify;
+      text-align:  left;
       line-height: 1.5;
     }
   }

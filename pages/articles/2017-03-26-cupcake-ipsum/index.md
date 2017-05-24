@@ -1,10 +1,10 @@
 ---
-title: "Cupcake Ipsum"
-date: "2017-03-26"
+title: Cupcake Ipsum
+date: 2017-03-26
 layout: post
-path: "/cupcake-ipsum/"
-category: "Welcome"
-description: "Cupcake ipsum dolor sit amet powder. Brownie cupcake jelly carrot cake."
+path: /cupcake-ipsum/
+category: Welcome
+description: Cupcake ipsum dolor sit amet powder. Brownie cupcake jelly carrot cake.
 ---
 
 Cupcake ipsum dolor sit amet powder. Brownie cupcake jelly carrot cake. Pudding carrot cake topping. Jelly cake gummi bears I love tiramisu muffin powder tart.

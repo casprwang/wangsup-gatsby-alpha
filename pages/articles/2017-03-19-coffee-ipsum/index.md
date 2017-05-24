@@ -1,10 +1,13 @@
 ---
-title: "Coffee Ipsum"
-date: "2017-03-19"
+title: Coffee Ipsum
+date: 2017-03-19
 layout: post
-path: "/coffee-ipsum/"
-category: "Welcome"
-description: "Americano, seasonal con panna café au lait black galão french press."
+tags: 
+  - Neovim
+  - Vim
+path: /coffee-ipsum/
+category: Welcome
+description: Americano, seasonal con panna café au lait black galão french press.
 ---
 
 Americano, seasonal con panna café au lait black galão french press. Cappuccino black decaffeinated milk fair trade aged ristretto, id froth cup saucer wings. Siphon con panna, café au lait spoon cup shop cinnamon. Cup, in and dripper caffeine acerbic skinny.

@@ -1,10 +1,10 @@
 ---
-title: "Cat Ipsum"
-date: "2017-03-17"
+title: Cat Ipsum
+date: 2017-03-17
 layout: post
-path: "/cat-ipsum/"
-category: "Welcome"
-description: "Cat ipsum dolor sit amet, russian blue cheetah yet norwegian forest."
+path: /cat-ipsum/
+category: Welcome
+description: Cat ipsum dolor sit amet, russian blue cheetah yet norwegian forest.
 ---
 
 Cat ipsum dolor sit amet, russian blue cheetah yet norwegian forest. Maine coon singapura bombay for siamese. Puma maine coon siamese but himalayan. Scottish fold puma tomcat yet sphynx abyssinian but turkish angora cheetah. Puma siamese or tabby american bobtail savannah. Lynx singapura. Lion leopard, savannah. Egyptian mau american shorthair yet burmese tiger mouser and cornish rex. Cougar cheetah yet lynx munchkin. American shorthair lion lion, so bengal persian grimalkin. Savannah havana brown, balinese . Cornish rex puma for jaguar turkish angora, but devonshire rex cougar. Siamese russian blue jaguar. Balinese . Tom lynx so turkish angora for burmese abyssinian . Sphynx ocelot, burmese egyptian mau for puma.

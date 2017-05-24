@@ -23,6 +23,7 @@ body {
         margin-left: 0;
         & li {
           padding: 6px 0;
+          font-size: responsive 16px 21px;
           &>a {}
         }
       }
