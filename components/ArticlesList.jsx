@@ -45,7 +45,6 @@ class ArticlesList extends React.Component {
     const { route } = this.props;
     const post = route.page.data;
     const { pages } = this.props.route
-    console.log(pages[1].data)
 
     return (
       <div>

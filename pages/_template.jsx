@@ -7,7 +7,6 @@ class Template extends React.Component {
     const { children } = this.props;
     let { data } = this.props.children.props.route.page
 
-console.log()
     return (
       <div className="wrapper">
         {children}

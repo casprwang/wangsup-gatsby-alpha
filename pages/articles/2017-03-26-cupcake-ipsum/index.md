@@ -3,7 +3,9 @@ title: Cupcake Ipsum
 date: 2017-03-26
 layout: post
 path: /cupcake-ipsum/
-category: Welcome
+category: 
+  - Welcome
+  - Come
 description: Cupcake ipsum dolor sit amet powder. Brownie cupcake jelly carrot cake.
 ---
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment'
 
 
 export default class ArticleMeta extends React.Component {
@@ -6,19 +7,17 @@ export default class ArticleMeta extends React.Component {
     const { date } = this.props;
     return date ?
       <dl className="article-meta-postdate">
-        <dt>发布于：</dt>
-        {/* <dd>{`${moment(date).format('YYYY-MM-DD H:MM')}`}</dd> */}
+        <dd>{`${moment(date).format('YYYY-MM-DD')}`}</dd>
       </dl> : null;
   }
 
   getCategories() {
-    const { categories } = this.props;
-    return categories ?
+    const { category } = this.props;
+    return category ?
       <dl className="article-meta-categories">
-        <dt>分类于：</dt>
-        {/* { */}
-        {/*   categories.map(cat => <dd key={cat}>{cat}</dd>) */}
-        {/* } */}
+        {
+          category.map(cat => <dd key={cat}>{cat}</dd>)
+        }
       </dl> : null;
   }
 
@@ -26,7 +25,6 @@ export default class ArticleMeta extends React.Component {
     const { tags } = this.props;
     return tags ?
       <dl className="article-meta-tags">
-        <dt>标签：</dt>
         {
           tags.map(tg => <dd key={tg}>{tg}</dd>)
         }
@@ -34,16 +32,11 @@ export default class ArticleMeta extends React.Component {
   }
 
   render() {
-    {/* const { date, tags } = this.props */}
-    {/* console.log(tags) */}
-    {/* console.log(date) */}
-
     return (
       <div className="article-meta">
-        {/* {this.getPostDate()} */}
+        {this.getPostDate()}
         {/* {this.getCategories()} */}
         {this.getTags()}
-        {/* <h1>{date}</h1> */}
       </div>
     );
   }

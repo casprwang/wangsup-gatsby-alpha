@@ -6,7 +6,8 @@ tags:
   - Neovim
   - Vim
 path: /coffee-ipsum/
-category: Welcome
+category: 
+  - Welcome
 description: Americano, seasonal con panna café au lait black galão french press.
 ---
 

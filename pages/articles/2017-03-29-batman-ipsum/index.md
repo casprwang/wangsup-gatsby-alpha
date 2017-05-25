@@ -3,7 +3,8 @@ title: Functional Programming
 date: 2017-03-29
 layout: post
 path: /batman-ipsum/
-category: Welcome
+category: 
+  - Welcome
 description: Never underestimate Gotham City
 ---
 

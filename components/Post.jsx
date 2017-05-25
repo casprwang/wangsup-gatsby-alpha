@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
+import{ TweetThis } from './Social.jsx';
+
 
 class Post extends React.Component {
   componentWillMount() {
@@ -20,8 +22,9 @@ class Post extends React.Component {
     }
   }
   render() {
-    const { route } = this.props;
-    const post = route.page.data;
+    const { route } = this.props
+    const post = route.page.data
+    const path = post.path = route.path;
 
     return (
       <div>
@@ -37,6 +40,7 @@ class Post extends React.Component {
             </div>
           </div>
         </div>
+        <TweetThis {...post}></TweetThis>
       </div>
     );
   }
