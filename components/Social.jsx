@@ -3,14 +3,19 @@ import { ShareButtons, generateShareIcon } from 'react-share';
 import { prefixLink } from 'gatsby-helpers';
 
 
-const { FacebookShareButton, TwitterShareButton } = ShareButtons;
-{/* const FacebookIcon = generateShareIcon('facebook'); */}
+const { LinkedinShareButton, TwitterShareButton } = ShareButtons;
 const TwitterIcon = generateShareIcon('twitter');
+const LinkedinIcon = generateShareIcon('linkedin');
 
 
 const TweetThis = props =>
-  <TwitterShareButton url={prefixLink(`${props.path}`)} title={props.title} via={'supsupsong'} className={'share-icons'}>
+  <TwitterShareButton className="icon-test" url={prefixLink(`${props.path}`)} title={props.title} via={'supsupsong'} className={'share-icons'}>
     <TwitterIcon round size={32} />
   </TwitterShareButton>;
 
-export { TweetThis};
+const LinkedThis = props =>
+  <LinkedinShareButton url={prefixLink(`${props.path}`)} title={props.title}>
+    <LinkedinIcon round size={32}></LinkedinIcon>
+  </LinkedinShareButton>
+
+export { TweetThis, LinkedThis};

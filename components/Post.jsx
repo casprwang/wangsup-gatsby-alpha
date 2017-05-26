@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
-import{ TweetThis } from './Social.jsx';
-
+import{ TweetThis, LinkedThis } from './Social.jsx';
 
 class Post extends React.Component {
   componentWillMount() {
@@ -37,10 +36,18 @@ class Post extends React.Component {
               <h1>{post.title}</h1>
               <div className="post-container-body">
                 <div dangerouslySetInnerHTML={{ __html: post.body }} /></div>
+
+        <ul className="social-container">
+          <li><TweetThis {...post}></TweetThis></li>
+          <li><LinkedThis {...post}></LinkedThis></li>
+        </ul>
             </div>
           </div>
         </div>
-        <TweetThis {...post}></TweetThis>
+        {/* <ul className="social-list"> */}
+        {/*   <li>one</li> */}
+        {/*   <li>two</li> */}
+        {/* </ul> */}
       </div>
     );
   }
