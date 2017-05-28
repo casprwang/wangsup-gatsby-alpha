@@ -2,3 +2,12 @@ siteTitle="Song Wang"
 siteDescription="Self driven developer"
 
 linkPrefix = "/wangsup"
+
+# Links
+email = "wangsongiam@gmail.com"
+facebook = "https://www.facebook.com/wangSupcom"
+twitter = "https://twitter.com/supsupsong"
+github = "https://github.com/wangsongiam"
+lastfm = "http://www.last.fm/user/wangsup"
+medium = "https://medium.com/@song_wang"
+linkedin = "https://www.linkedin.com/in/song-wang-279a2b126/"

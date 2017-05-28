@@ -3,13 +3,11 @@ import Helmet from 'react-helmet';
 import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 import { config } from 'config';
+import Footer from '../components/Footer.jsx'
 
 export default class Index extends React.Component {
   render() {
     return (
-    <div className="tabel-container">
-      <div className="table-cell">
-
         <div className="main">
           <div className="main-container">
             <Helmet title={config.siteTitle} meta={[{ 'name': 'description', 'content': 'sample' }]} />
@@ -25,21 +23,21 @@ export default class Index extends React.Component {
             <div className="main-container-links">
               <ul>
                 <li>
-                  <Link to={prefixLink('/philosophy/')}>Philosophy</Link>
+                  <Link to={prefixLink('/philosophy/')}>About</Link>
                 </li>
                 <li>
-                  <Link to={prefixLink('/articles/')}>Articles</Link>
+                  <Link to={prefixLink('/articles/')}>Blog</Link>
                 </li>
                 <li>
                   <a href="https://github.com/wangsongiam" target="_blank">Github</a>
                 </li>
               </ul>
             </div>
+            <div className="testdiv">
+            </div>
+            <Footer></Footer>
           </div>
-
         </div>
-      </div>
-    </div>
     );
   }
 }

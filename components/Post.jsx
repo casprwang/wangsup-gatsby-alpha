@@ -44,10 +44,6 @@ class Post extends React.Component {
             </div>
           </div>
         </div>
-        {/* <ul className="social-list"> */}
-        {/*   <li>one</li> */}
-        {/*   <li>two</li> */}
-        {/* </ul> */}
       </div>
     );
   }
