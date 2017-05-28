@@ -29,7 +29,8 @@ export default class Index extends React.Component {
                   <Link to={prefixLink('/articles/')}>Blog</Link>
                 </li>
                 <li>
-                  <a href="https://github.com/wangsongiam" target="_blank">Github</a>
+                  {/* <a href="https://github.com/wangsongiam" target="_blank">Github</a> */}
+                  <Link to={prefixLink('/resume/')}>Resume</Link>
                 </li>
               </ul>
             </div>

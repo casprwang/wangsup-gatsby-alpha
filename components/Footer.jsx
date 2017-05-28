@@ -11,17 +11,12 @@ export default function Footer() {
   return (
     <footer>
       <section>
-        <p>
-          <a href="mailto:wangsongiam@gmail.com" >
-            <Icon icon="send" /> {config.email}
-          </a>
-        </p>
         <ul>
-          <li>
-            <a rel="noopener noreferrer" target="__blank" href={config.facebook}>
-              <Icon icon="facebook" />
-            </a>
-          </li>
+          {/* <li> */}
+          {/*   <a rel="noopener noreferrer" target="__blank" href={config.facebook}> */}
+          {/*     <Icon icon="facebook" /> */}
+          {/*   </a> */}
+          {/* </li> */}
           <li>
             <a rel="noopener noreferrer" target="__blank" href={config.twitter}>
               <Icon icon="twitter" />
@@ -37,17 +32,23 @@ export default function Footer() {
               <Icon icon="linkedin" />
             </a>
           </li>
-          <li>
-            <a rel="noopener noreferrer" target="__blank" href={config.medium}>
-              <Icon icon="medium" />
-            </a>
-          </li>
-          <li>
-            <a rel="noopener noreferrer" target="__blank" href={config.lastm}>
-              <Icon icon="lastfm" />
-            </a>
-          </li>
+          {/* <li> */}
+          {/*   <a rel="noopener noreferrer" target="__blank" href={config.medium}> */}
+          {/*     <Icon icon="medium" /> */}
+          {/*   </a> */}
+          {/* </li> */}
+          {/* <li> */}
+          {/*   <a rel="noopener noreferrer" target="__blank" href={config.lastm}> */}
+          {/*     <Icon icon="lastfm" /> */}
+          {/*   </a> */}
+          {/* </li> */}
         </ul>
+        {/* <p> */}
+        {/*   <a href="mailto:wangsongiam@gmail.com" > */}
+        {/*     <Icon icon="send" /> */}
+        {/*     <div className="mail">{config.email}</div> */}
+        {/*   </a> */}
+        {/* </p> */}
       </section>
     </footer>
   );

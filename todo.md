@@ -1,2 +1,1 @@
-Social
-Post
+animation on hover
