@@ -1,7 +1,7 @@
 ---
-title: "Philosophy"
+title: "About"
 layout: page
-path: "/philosophy"
+path: "/about"
 ---
 
 Alchemy was designed to provide easy and quick customization, this starter is not a theme, is a boilerplate.

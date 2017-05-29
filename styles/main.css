@@ -3,16 +3,15 @@
 @import './base/_variables.css';
 @import './base/_mq.css';
 @import './base/_defaults.css';
-/* @import './base/_logo.css'; */
-@import './base/_link.css';
 
 /* components */
 @import './components/_page.css';
 @import './components/_post.css';
+@import './components/_footer.css';
 
 @import './components/_articles-list.css';
 @import './components/_article.css';
+@import './components/_social.css';
 /* @import './components/_article-meta.css' */
-@import './components/_social.css'
 
 

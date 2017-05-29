@@ -23,13 +23,12 @@ export default class Index extends React.Component {
             <div className="main-container-links">
               <ul>
                 <li>
-                  <Link to={prefixLink('/philosophy/')}>About</Link>
+                  <Link to={prefixLink('/about/')}>About</Link>
                 </li>
                 <li>
                   <Link to={prefixLink('/articles/')}>Blog</Link>
                 </li>
                 <li>
-                  {/* <a href="https://github.com/wangsongiam" target="_blank">Github</a> */}
                   <Link to={prefixLink('/resume/')}>Resume</Link>
                 </li>
               </ul>

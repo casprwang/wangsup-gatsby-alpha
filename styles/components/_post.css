@@ -1,7 +1,9 @@
 .post {
-  lost-column: 1/1 0 0;
   padding-left: 25px;
   padding-right: 25px;
+  max-width: 800px;
+  /* margin-top: 30px auto; */
+  margin: 30px auto;
 
   @media (--tablet) {
     padding-left: 55px;
@@ -11,21 +13,19 @@
   @media (--desktop) {
     padding-left: 50px;
     padding-right: 50px;
+    margin: 60px auto;
   }
 
   &-container {
-    lost-center: 980px;
-    lost-align: center;
-    text-align: left;
-    margin-top: 30px;
 
-    &-title {}
+    &-title {
+      font-size: responsive 13px 22px;
+    }
 
     &-body {
       font-size: responsive 15px 20px;
       text-align:  left;
       line-height: 1.5;
     }
-
   }
 }

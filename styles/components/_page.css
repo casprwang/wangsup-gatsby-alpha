@@ -1,7 +1,9 @@
 .page {
-  lost-column: 1/1 0 0;
+  /* lost-column: 1/1 0 0; */
   padding-left: 25px;
   padding-right: 25px;
+  lost-center: 980px;
+  lost-align: center;
 
   @media (--tablet) {
     padding-left: 55px;
@@ -14,9 +16,7 @@
   }
 
   &-container {
-    lost-center: 980px;
-    lost-align: center;
-    text-align: justify;
+    text-align: left;
     margin-top: 30px;
 
     &-title {}
@@ -27,3 +27,4 @@
     }
   }
 }
+

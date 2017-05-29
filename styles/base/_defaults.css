@@ -5,6 +5,29 @@ body {
   font-size: responsive 14px 18px;
 }
 
+a {
+  color: var(--link);
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: 0.15s;
+  &:hover {
+    color: color(var(--link) a(60%));
+    text-decoration: none;
+  }
+  &:visited {
+    /* text-decoration: underline color(var(--link) a(80%)); */
+  }
+  &:focus {
+    /* text-decoration: underline color(var(--link) a(60%)); */
+  }
+}
+
+*::selection {
+  color: #fff;
+  background: var(--link);
+}
+
+
 .main {
   display: table;
   font-size: responsive 14px 21px;
@@ -15,7 +38,12 @@ body {
     vertical-align: middle;
     text-align: center;
     &-title {}
-    &-subtitle {}
+    &-subtitle {
+      h3 {
+        color: color(var(--fontColor) a(80%));
+        margin-bottom: 10px;
+      }
+    }
     &-links {
       &>ul {
         list-style-type: none;
@@ -35,50 +63,3 @@ body {
   }
 }
 
-footer {
-  p {
-    margin-bottom: 10px;
-    div {
-      display: inline-block;
-      vertical-align: 1px;
-      .icon-send{
-        vertical-align: -5px;
-        margin-right: 10px;
-      }
-    }
-    .mail {
-      vertical-align: 3px;
-    }
-  }
-  ul {
-    margin-left: 0;
-    margin-bottom: 10px;
-    li {
-      list-style: none;
-      display: inline-block;
-      margin-left: 20px;
-      &:first-child {
-        margin-left: 0;
-      }
-    }
-  }
-  span.icon {
-    height: 22px;
-    width: 22px;
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: invert(80%);
-    display: inline-block;
-    vertical-align: middle;
-    &-facebook {
-      /* background-color: red; */
-      /* display: none; */
-    }
-    &-send{
-      width: 22px;
-      height: 22px;
-      vertical-align: -.4px;
-    }
-  }
-}
